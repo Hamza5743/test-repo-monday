@@ -13,7 +13,7 @@ octokit.git.createRef({
   owner: repoOwner,
   repo,
   ref: `refs/tags/${tagName}`,
-  sha: "",
+  sha: "sample-sha-1",
 });
 
 // console.log(tag);
