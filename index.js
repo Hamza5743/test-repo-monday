@@ -1,12 +1,12 @@
 const { Octokit } = require('@octokit/rest');
 
-const repoOwner = 'educative';
-const repo = 'educative';
-const tagName = "v230921";
+const repoOwner = 'me';
+const repo = 'me';
+const tagName = "test-branch-2";
 
 const octokit = new Octokit({
   auth: decryptedToken,
-  userAgent: 'Create-Release-Branch',
+  userAgent: 'Create Branch',
 });
 
 octokit.git.createRef({
